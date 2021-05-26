@@ -28,13 +28,13 @@ public class MailHelper {
 		// Recipient's email ID needs to be mentioned.
 
 		// Sender's email ID needs to be mentioned
-		String from = "divya11223026@gmail.com";
-
+		//String from = "divya11223026@gmail.com";
+		String from = "neehanichenametla@gmail.com";
 		// Assuming you are sending email from through gmails smtp
 		String host = "smtp.gmail.com";
 
-		String pwd = "navya3026";
-
+		//String pwd = "navya3026";
+		String pwd ="gowtham21@";
 		// Get system properties
 		Properties properties = System.getProperties();
 

@@ -30,7 +30,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * The Class CustomerRestController.
  */
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "false", methods = { RequestMethod.GET,
+@CrossOrigin(origins = "*", allowCredentials = "false", methods = { RequestMethod.GET,
 		RequestMethod.POST, RequestMethod.DELETE, RequestMethod.PUT }, allowedHeaders = "*")
 @RestController
 @RequestMapping("/customer")
